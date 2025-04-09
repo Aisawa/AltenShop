@@ -1,0 +1,26 @@
+.admin-control {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+    .status-text {
+      font-size: 14px;
+      color: #495057;
+    }
+    
+    ::ng-deep .p-togglebutton {
+      &.p-highlight {
+        background-color: #3B82F6;
+        border-color: #3B82F6;
+        
+        &:hover {
+          background-color: #2563EB;
+          border-color: #2563EB;
+        }
+      }
+    }
+  }

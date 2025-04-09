@@ -1,0 +1,8 @@
+<div class="admin-control">
+    <p-toggleButton [(ngModel)]="isAdmin" 
+                   onLabel="Admin" 
+                   offLabel="User" 
+                   (onChange)="toggleAdminStatus()">
+    </p-toggleButton>
+    <span class="status-text">Mode actuel: <strong>{{ isAdmin ? 'Administrateur' : 'Utilisateur' }}</strong></span>
+  </div>
